@@ -1,0 +1,104 @@
+.navbar {
+    background-color: white;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    border: 1px, groove, #cecccc;
+    box-shadow: 0 2px 5px black;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: beige;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.nav-logo{
+    height: 4em;
+    width: 4rem;
+}
+
+.login-button {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    border: 1px groove black;
+    outline: none;
+}
+
+.signup-button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    border: 1px groove black;
+    outline: none;
+}
+
+.login-button:hover, .signup-button:hover {
+    background-color: rgb(186, 185, 185);
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.items {
+    margin-left: 150px;
+    justify-content:center;
+    flex-grow: 1;
+} 
+
+
+.nav-item {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover, .nav-item a.active {
+    color: azure;
+}
+
+@media(min-width: 991px) {
+    .nav-item a::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: blue;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-item a:hover::before, .nav-item a.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}

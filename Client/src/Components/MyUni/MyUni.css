@@ -1,0 +1,35 @@
+
+.college-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.college-title h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.college-info-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.college-info-header img {
+    height: 10rem;
+    width: 9rem;
+    border-radius: 25px;
+}
+
+.college-info-header h2 {
+    margin: 1.1rem 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}

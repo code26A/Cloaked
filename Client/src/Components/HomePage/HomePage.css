@@ -1,0 +1,413 @@
+.sub-nav{
+    width: 25%;
+    margin: 5px;
+    border-right: 1px groove black;
+}
+
+.sub-nav-item h4{
+  padding: 20px;
+}
+
+
+.view{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 5rem;
+}
+
+.top-title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
+}
+
+.top-title h4 {
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.post{
+    margin: 4px 0;
+    border-radius: 12px;
+    background-color: white;
+    padding: 1.2rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.post p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a09f9f;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.post-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+
+.wall-box {
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.wall-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.wall-info-upper{
+    display: flex;
+    flex-direction: row;
+    align-items: s;
+    justify-content: flex-start;
+}
+
+.wall-info-upper h5 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 1px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.wall-info-upper p {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 2px;
+    font-size: 12px;
+    color: #b4b2b2;
+    font-weight: 500;
+}
+
+.wall-info-lower {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: flex-start;
+}
+
+.wall-info-lower p {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 2px;
+    font-size: 14px;
+    color: #a09f9f;
+    font-weight: 600;
+
+}
+
+.wall-header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: left;
+    padding: 20px;
+}
+
+.wall-content {
+    padding: 0 20px;
+}
+
+.wall-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-picture {
+    background-size: cover;
+    border-radius:50% 50% 50% 50%;
+    width:50px;
+    height:50px;
+    background-color: white;
+    outline: none;
+    margin-right: 5px;
+}
+
+.wall-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+
+.wall-actions button {
+    background-color: transparent;
+    border: none;
+    background-color: #eceaea;
+    border-radius: 25px;
+    color: #3ABEF9;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding: 5px 8px;
+}
+
+.wall-actions button:hover {
+    color: #1F8AC0;
+}
+
+.wall-actions button:focus {
+    outline: none;
+}
+
+.wall-comments {
+    padding: 10px 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.wall-comments input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wall-comments input:focus {
+    outline: none;
+    border-color: #3ABEF9;
+}
+
+.wall-comments p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin: 10px 0 0;
+}
+
+.view-all-comments {
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: #a09f9f;
+}
+
+.view-all-comments:hover {
+    color: #1F8AC0;
+}
+
+.view-all-comments:focus {
+    outline: none;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+  
+  .reply-container {
+    margin-left: 20px;
+  }
+  
+  .comment-reply {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .comment-reply input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .comment-reply button {
+    border: none;
+    background-color: #3ABEF9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-reply button:hover {
+    background-color: #1F8AC0;
+  }
+  
+  .reply {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .reply input {
+    width: calc(100% - 40px);
+  }
+
+  .action-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 3px 12px;
+  }
+
+  .like-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 3px 12px;
+    outline: none;
+  }
+  
+  .like-button.liked{
+    color: #ffffff;
+    background-color: red;
+  }
+  
+  .like-button .fa-heart {
+    transition: transform 0.3s ease;
+  }
+  
+  .like-button.liked .fa-heart {
+    transform: scale(1.2);
+  }
+  
+  .like-button:focus {
+    outline: none;
+  }
+  
+  .like-button.liked::after {
+    content: "";
+    display: block;
+    position: absolute; 
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    border-radius: 25px;
+    animation: pulsate 1s ease infinite;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+
+.sub-nav h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.college-category {
+  margin: 10px;
+  border-radius: 15px;
+  overflow-y: auto; /* Add a vertical scrollbar */
+  max-height: 40vh;
+  padding: 0px 30px;
+}
+
+.sub-nav-item h4 {
+   font-family: 'poppins', sans-serif;
+   font-weight: 500;
+   padding-bottom: 10px;
+   
+}
+.college-list {
+  display: flex;
+  flex-direction: row;
+  align-items:normal;
+  justify-content: last baseline;
+}
+
+.college-category::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+.college-category::-webkit-scrollbar-track {
+  position: relative;
+  height: 90%;
+}
+
+.college-category::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 8px; /* Rounded corners for the thumb */
+}
+
+.college-category::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+.college-list p{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.college-img {
+   height: 20px;
+   width: 20px;
+}
+
+.feature-list{
+  display: flex;
+  flex-direction: row;
+  align-items:last baseline;
+  justify-content: last baseline;
+}
+
+.feature-list p{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}

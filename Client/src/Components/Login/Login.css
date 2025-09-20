@@ -1,0 +1,116 @@
+
+
+#login-logo{
+    height: 5rem;
+    width: 5rem;
+    margin: 20px 0 2px;
+}
+
+.login-card{
+    height: 28rem;
+    margin: 10% 35.5%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 8px 8px -4px lightblue;
+    border-radius: 0.5rem;
+    
+}
+
+.login-card h6{
+    font-family: "Gruppo", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.login-form{
+    
+    width: 80%;
+   
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.login-field{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+    width: 100%;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: 1px, groove, rgb(12, 12, 12);
+    outline: none;
+    margin: 10px 0;
+}
+
+.login-field:hover{
+    border: 1px, groove, black;
+}
+.login-field:focus{
+    border: 1px, groove, black;
+    box-shadow: 0 0 5px #3ABEF9;;
+}
+
+::placeholder{
+    opacity: 0.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, serif;
+}
+
+.login-btn{
+    height: 45px;
+    background-color: #263238;
+    outline: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px, solid, #b0bec5;
+    border-radius: 3px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: 0.4s background-color ease-in-out;
+    transition: 0.5s border ease-in-out;
+    transition: 0.7s color ease-in-out;
+}
+
+.login-btn:hover{
+    outline: 2px solid transparent;
+    background-color: #e4e4e4;
+    outline-offset: 2px;
+    color: blue;
+    border: 1px solid black;
+}
+
+.login-post-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 80;
+}
+.post-t1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #00aeff;
+    cursor: pointer;
+}
+.post-t2{
+    padding-left: 9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00aeff;
+    cursor: pointer;
+}
+

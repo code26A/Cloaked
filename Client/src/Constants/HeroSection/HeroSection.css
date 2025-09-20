@@ -1,0 +1,32 @@
+.hero-section {
+    background: url(/Images/background2.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section::before {
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.container{
+    height: 70vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section h1 {
+    font-size: 1.5em;
+}
+
+.hero-section h2 {
+    font-size: 1.2em;
+}
